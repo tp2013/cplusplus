@@ -1,0 +1,7 @@
+package test;
+
+message Conf {
+    required int32 size_h = 1;
+    required int32 size_w = 2;
+    required int32 round_long =3;
+}

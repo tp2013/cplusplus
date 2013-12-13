@@ -1,13 +1,12 @@
-#include "GUI.h"
 #include "Engine.h"
 #include "Timer.h"
-#include "object_collection.h"
+#include "Object_collection.h"
 
 /// class Battle_field - 
-class Battle_field : public GUI {
+class Battle_field {
   // Associations
   Engine* unnamed;
   Timer* unnamed;
-  object_collection* unnamed;
+  Object_collection* unnamed;
 };
 

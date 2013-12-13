@@ -1,0 +1,13 @@
+class Config() {
+	size_t size_h;
+	size_t size_w;
+	size_t round_long;
+
+}
+
+class Objets () {
+	enum type { 
+	 };
+	 size_t position_x;
+	 size_t position_y;
+}
